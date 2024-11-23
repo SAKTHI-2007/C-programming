@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int principle=10000;
+    int rate=5;
+    int time=2;
+    double amount=(principle*rate*time)/100;
+    printf("compount interst is:%.2lf",amount);
+}
